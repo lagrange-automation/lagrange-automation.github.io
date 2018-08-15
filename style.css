@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', 'Roboto', 'Helvetica', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#hero {
+  text-align: center;
+  background: black;
+  padding-bottom: 50px;
+}
+
+#hero h1, #hero h2, #hero h3, #hero h4, #hero h5, #hero h6 {
+  color: white;
+}
+
+#content {
+  max-width: 1170px;
+}
+
+.service-card {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 12px;
+  max-width: 275px;
+  height: 180px;
+  background: #3E4EB8;
+}
+
+.service-card i {
+  padding-right: 8px;
+}
+
+.service-card > .mdl-card__title {
+  padding: 8px;
+}
+
+.service-card > .mdl-card__title > h3 {
+  font-weight: bold;
+}
+
+.service-card > .mdl-card__title > h3,
+.service-card > .mdl-card__supporting-text {
+  color: white;
+}
+
+.material-icons.md-light {
+  font-size: 56px;
+  color: rgba(255, 255, 255, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Roboto', 'Helvetica', sans-serif;
+  color: #757575;
+}
